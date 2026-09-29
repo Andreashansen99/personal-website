@@ -11,12 +11,6 @@ export default function Hero() {
       <p className="max-w-[58ch] text-base leading-relaxed text-muted">
         Work in progress.
       </p>
-
-      <div className="flex flex-col gap-3 border-t border-rule pt-6">
-        <p className="max-w-[58ch] text-base leading-relaxed text-muted">
-          Currently exploring SQL, dashboards, and statistical modeling.
-        </p>
-      </div>
     </section>
   );
 }

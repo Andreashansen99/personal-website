@@ -39,3 +39,35 @@ are specific to the *v1 build* — for future work it's fine to just
 describe the change directly rather than going through the full
 spec → plan → build ceremony again; that's really for bigger new
 features, not small tweaks.
+
+## Ideas for the Future
+
+Not a roadmap, just a list to pick from when there's time.
+
+**Content**
+- Swap `public/cv.pdf` for a real résumé
+- A projects/portfolio section — actual BI/data work: dashboards, SQL
+  queries, notebooks, small analyses. This is the single highest-value
+  addition for a recruiter audience.
+- A short skills list (tools: SQL, Power BI/Tableau, Python, Excel, etc.)
+- Education/experience timeline (relevant coursework, certifications,
+  internships, part-time work)
+- Short case studies for specific projects: the problem, the approach,
+  the tools, the outcome — more convincing than a bare project list
+
+**Features**
+- A live, small interactive chart or dashboard embedded on the page —
+  a genuine proof of BI skill rather than a description of it
+- A `/projects` route per the original SPEC.md structure, so future
+  apps/tools can live at their own path without touching the landing page
+- Basic analytics (Vercel Analytics is a one-line add) to see if anyone's
+  actually visiting
+- A proper custom favicon instead of the Next.js default
+- `sitemap.xml` / `robots.txt` for SEO once there's more than one page
+- A manual light/dark toggle (currently only follows OS preference)
+
+**Polish**
+- Replace "Work in Progress" once there's real content to show instead
+- A real GitHub repo README with a screenshot, once the design settles
+- Lighthouse/accessibility check again after any bigger content addition
+  (re-run `/web-interface-guidelines`)

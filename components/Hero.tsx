@@ -5,7 +5,7 @@ export default function Hero() {
         <h1 className="font-serif text-5xl font-semibold tracking-tight text-ink sm:text-6xl">
           Andreas Hansen
         </h1>
-        <p className="text-lg font-medium text-accent">IT &amp; Business Student</p>
+        <p className="text-lg font-medium text-accent">Work in Progress</p>
       </div>
 
       <p className="max-w-[58ch] text-base leading-relaxed text-muted">

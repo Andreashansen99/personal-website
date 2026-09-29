@@ -4,7 +4,7 @@ See `tasks/plan.md` for full context, acceptance criteria, and verification step
 
 - [x] T1 — Project scaffold (Next.js + TS + Tailwind, git init, Vercel preview link)
 - [x] T2 — Hero section (`components/Hero.tsx`)
-- [ ] T3 — Links section (`components/Links.tsx`)
+- [x] T3 — Links section (`components/Links.tsx`)
 - [ ] T4 — CV download (`public/cv.pdf` + button)
 - [ ] T5 — Footer (`components/Footer.tsx`)
 - [ ] T6 — SEO & metadata (title, description, favicon, OG image)

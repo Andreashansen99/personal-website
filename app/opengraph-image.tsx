@@ -19,6 +19,9 @@ export default function OpengraphImage() {
           color: "#fafafa",
         }}
       >
+        <div style={{ fontSize: 32, color: "#4ade80", fontFamily: "monospace" }}>
+          $ whoami
+        </div>
         <div style={{ fontSize: 72, fontWeight: 700 }}>Andreas Hansen</div>
         <div style={{ fontSize: 36, color: "#a1a1aa" }}>
           BI &amp; Data Analyst

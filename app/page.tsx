@@ -14,9 +14,11 @@ export default function Home() {
         <a
           href="/cv.pdf"
           download
-          className="inline-flex w-fit items-center gap-2 rounded-full bg-zinc-950 px-5 py-2.5 text-sm font-semibold text-zinc-50 transition-colors hover:bg-zinc-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-950 dark:bg-zinc-50 dark:text-zinc-950 dark:hover:bg-zinc-200 dark:focus-visible:outline-zinc-50"
+          className="mt-4 inline-flex w-fit items-center gap-1.5 border border-accent px-5 py-2.5 text-sm font-semibold text-accent transition-colors hover:bg-accent hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
+          <span aria-hidden="true">[</span>
           Download CV
+          <span aria-hidden="true">]</span>
         </a>
       </main>
       <Footer />

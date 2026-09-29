@@ -1,41 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #d4d4d8;
-  --accent: #4ade80;
-  color-scheme: dark;
+  --background: #f4f4f5;
+  --surface: #ffffff;
+  --foreground: #18181b;
+  color-scheme: light dark;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
   --color-foreground: var(--foreground);
-  --color-accent: var(--accent);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-geist-sans);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #09090b;
+    --surface: #18181b;
+    --foreground: #f4f4f5;
+  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-}
-
-@keyframes blink {
-  0%,
-  49% {
-    opacity: 1;
-  }
-  50%,
-  100% {
-    opacity: 0;
-  }
-}
-
-.cursor-blink {
-  animation: blink 1s steps(1) infinite;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .cursor-blink {
-    animation: none;
-  }
 }

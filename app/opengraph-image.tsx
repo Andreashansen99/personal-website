@@ -15,15 +15,28 @@ export default function OpengraphImage() {
           justifyContent: "center",
           gap: 24,
           padding: 96,
-          background: "#09090b",
-          color: "#fafafa",
+          background: "#f4f4f5",
+          color: "#18181b",
         }}
       >
-        <div style={{ fontSize: 32, color: "#4ade80", fontFamily: "monospace" }}>
-          $ whoami
+        <div
+          style={{
+            display: "flex",
+            height: 88,
+            width: 88,
+            alignItems: "center",
+            justifyContent: "center",
+            borderRadius: 9999,
+            background: "#4f46e5",
+            color: "#ffffff",
+            fontSize: 32,
+            fontWeight: 700,
+          }}
+        >
+          AH
         </div>
         <div style={{ fontSize: 72, fontWeight: 700 }}>Andreas Hansen</div>
-        <div style={{ fontSize: 36, color: "#a1a1aa" }}>
+        <div style={{ fontSize: 36, color: "#52525b" }}>
           IT &amp; Business Student
         </div>
       </div>

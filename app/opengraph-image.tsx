@@ -29,7 +29,7 @@ export default function OpengraphImage() {
           Andreas Hansen
         </div>
         <div style={{ fontSize: 34, fontWeight: 500, color: "#2545d1" }}>
-          IT &amp; Business Student
+          Work in Progress
         </div>
       </div>
     ),

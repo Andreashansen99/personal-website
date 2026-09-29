@@ -9,9 +9,7 @@ export default function Hero() {
       </div>
 
       <p className="max-w-[58ch] text-base leading-relaxed text-muted">
-        Currently studying IT and Business, with a growing focus on BI and
-        data science &mdash; I like turning raw data into dashboards and
-        analysis that actually explain what&rsquo;s going on.
+        Work in progress.
       </p>
 
       <div className="flex flex-col gap-3 border-t border-rule pt-6">

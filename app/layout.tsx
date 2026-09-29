@@ -20,9 +20,8 @@ export const metadata: Metadata = {
       ? `https://${process.env.VERCEL_URL}`
       : "http://localhost:3000",
   ),
-  title: "Andreas Hansen — IT & Business Student",
-  description:
-    "Andreas Hansen is an IT & Business student with a growing focus on BI and data science — dashboards and analysis that actually explain what's going on.",
+  title: "Andreas Hansen — Work in Progress",
+  description: "Work in progress.",
 };
 
 export const viewport = {

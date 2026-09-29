@@ -8,5 +8,5 @@ See `tasks/plan.md` for full context, acceptance criteria, and verification step
 - [x] T4 — CV download (`public/cv.pdf` + button)
 - [x] T5 — Footer (`components/Footer.tsx`)
 - [x] T6 — SEO & metadata (title, description, favicon, OG image)
-- [ ] T7 — Accessibility & responsive pass (`/web-interface-guidelines`)
+- [x] T7 — Accessibility & responsive pass (`/web-interface-guidelines`)
 - [ ] T8 — Production deploy *(ask user before running)*

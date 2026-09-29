@@ -13,30 +13,22 @@ export default function OpengraphImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          gap: 24,
+          gap: 16,
           padding: 96,
-          background: "#f4f4f5",
-          color: "#18181b",
+          background: "#f5f6f8",
+          color: "#14213d",
         }}
       >
         <div
           style={{
-            display: "flex",
-            height: 88,
-            width: 88,
-            alignItems: "center",
-            justifyContent: "center",
-            borderRadius: 9999,
-            background: "#4f46e5",
-            color: "#ffffff",
-            fontSize: 32,
-            fontWeight: 700,
+            fontSize: 76,
+            fontWeight: 600,
+            fontFamily: "Georgia, 'Times New Roman', serif",
           }}
         >
-          AH
+          Andreas Hansen
         </div>
-        <div style={{ fontSize: 72, fontWeight: 700 }}>Andreas Hansen</div>
-        <div style={{ fontSize: 36, color: "#52525b" }}>
+        <div style={{ fontSize: 34, fontWeight: 500, color: "#2545d1" }}>
           IT &amp; Business Student
         </div>
       </div>

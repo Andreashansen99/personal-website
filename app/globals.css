@@ -1,28 +1,58 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f4f4f5;
-  --surface: #ffffff;
-  --foreground: #18181b;
+  --paper: #f5f6f8;
+  --ink: #14213d;
+  --muted: #5b6472;
+  --rule: #d8dee9;
+  --accent: #2545d1;
+  --on-accent: #ffffff;
   color-scheme: light dark;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-surface: var(--surface);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+  --font-sans: var(--font-plex-sans);
+  --font-serif: var(--font-fraunces);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #09090b;
-    --surface: #18181b;
-    --foreground: #f4f4f5;
+    --paper: #0e1526;
+    --ink: #e7eaf0;
+    --muted: #94a0b4;
+    --rule: #263047;
+    --accent: #7c97ff;
+    --on-accent: #0e1526;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+@keyframes draw-trend {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.trend-line {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .trend-line {
+    animation: draw-trend 1.8s ease-out forwards;
+  }
 }

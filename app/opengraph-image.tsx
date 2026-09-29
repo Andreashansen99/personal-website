@@ -24,7 +24,7 @@ export default function OpengraphImage() {
         </div>
         <div style={{ fontSize: 72, fontWeight: 700 }}>Andreas Hansen</div>
         <div style={{ fontSize: 36, color: "#a1a1aa" }}>
-          BI &amp; Data Analyst
+          IT &amp; Business Student
         </div>
       </div>
     ),

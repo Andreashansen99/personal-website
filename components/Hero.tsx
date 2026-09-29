@@ -10,11 +10,11 @@ export default function Hero() {
           _
         </span>
       </h1>
-      <p className="text-xl text-zinc-400 sm:text-2xl">BI &amp; Data Analyst</p>
+      <p className="text-xl text-zinc-400 sm:text-2xl">IT &amp; Business Student</p>
       <p className="max-w-2xl text-base leading-relaxed text-zinc-400 sm:text-lg">
-        I turn raw data into decisions &mdash; building dashboards, pipelines,
-        and analysis that help teams see what&rsquo;s actually happening in
-        their business.
+        Currently studying IT and Business, with a growing focus on BI and
+        data science &mdash; I like turning raw data into dashboards and
+        analysis that actually explain what&rsquo;s going on.
       </p>
     </section>
   );

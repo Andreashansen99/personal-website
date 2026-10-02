@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Links from "@/components/Links";
+import Projects from "@/components/Projects";
 import TrendLine from "@/components/TrendLine";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         >
           Download CV
         </a>
+        <Projects />
       </main>
       <Footer />
     </>
